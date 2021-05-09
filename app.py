@@ -5,7 +5,7 @@ import json, base64
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/index')
 def home():
     a = {
     'Contoh-Penggunaan':{'text3d': 'api/text3d?text=halo', 'textmaker1': 'api/textmaker?text=halo', 'textmaker2': 'api/textmaker2?text=halo', 'textmaker3': 'api/textmaker3?text=halo', 'textmaker4': 'api/textmaker4?text=halo'}
